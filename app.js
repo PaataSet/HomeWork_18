@@ -32,15 +32,16 @@ function myFunction_2(price, sale) {
 function getCurrencySymbolFromCode(CurrencyCode) {
   switch (CurrencyCode) {
     case "USD":
-      return "$";
+      return console.log("$");
       break;
     case "EUR":
-      return "€";
+      return console.log("€");
       break;
     case "GEL":
-      return "₾";
+      return console.log("₾");
       break;
     default:
+      return console.log("There is no symbol for this currency");
       break;
   }
 }
@@ -63,9 +64,15 @@ function uptolow(text) {
 5.დაწერეთ ფუნქცია, რომელიც პარამეტრად მიიღებს რიცხვების მასივს და დააბრუნებს გაფილტრულ მასივს, (.filter) სადაც 
 მხოლოდ კენტი რიცხვები იქნება
 */
-
 const numbers = [2, 3, 6, 7, 8, 9, 23, 24, 29];
-const filterednumbers = numbers.filter();
+
+// const odd = numbers.filter((num) => num % 2 === 1);
+// console.log(odd);
+
+function oddNumbers(nmbeurs) {
+  odd = numbers.filter((num) => num % 2 === 1);
+  return console.log(odd);
+}
 
 /*
 6*. ლექციაზე დაწერილ რეპოზიტორში მოცემულია ფაილი data.js სადაც გვაქვს პროდუქტების მასივი . გადააკოპირეთ ეს მასივი თქვენთან, 
@@ -73,8 +80,10 @@ const filterednumbers = numbers.filter();
 მასივს და დააბრუნებს იმ ელემენტს(ობიექტს), რომლის ფასიც (price) არის უმცირესი
 */
 
-შემოტანილია დატა ფაილი.
-
+console.log(data);
+function price(data) {
+  numbers.filter(price);
+}
 /*
 7*. დაწერეთ ფუნქცია რომელიც პარამეტრად მიღებს ობიექტების მასივს (ობიექტს უნდა ჰქონდეს title ველი) და მეორე პარამეტრად 
 მიიღებს სტრინგს. ამ მასივში  . find ის დახმარებით მოვძებნოთ ელემენტი რომლის title ველის მნიშვნელობა ემთხვევა ფუნქციის მეორე 

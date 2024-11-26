@@ -33,7 +33,7 @@ function getCurrencySymbolFromCode(CurrencyCode) {
   switch (CurrencyCode) {
     case "USD":
       return console.log("$");
-      break;
+      break; // არ სჭირდება break
     case "EUR":
       return console.log("€");
       break;

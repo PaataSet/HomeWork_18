@@ -66,9 +66,6 @@ function uptolow(text) {
 */
 const numbers = [2, 3, 6, 7, 8, 9, 23, 24, 29];
 
-// const odd = numbers.filter((num) => num % 2 === 1);
-// console.log(odd);
-
 function oddNumbers(nmbeurs) {
   odd = numbers.filter((num) => num % 2 === 1);
   return console.log(odd);
@@ -80,15 +77,15 @@ function oddNumbers(nmbeurs) {
 მასივს და დააბრუნებს იმ ელემენტს(ობიექტს), რომლის ფასიც (price) არის უმცირესი
 */
 
-console.log(data);
-function price(data) {
-  numbers.filter(price);
-}
+// ???????
+
 /*
 7*. დაწერეთ ფუნქცია რომელიც პარამეტრად მიღებს ობიექტების მასივს (ობიექტს უნდა ჰქონდეს title ველი) და მეორე პარამეტრად 
 მიიღებს სტრინგს. ამ მასივში  . find ის დახმარებით მოვძებნოთ ელემენტი რომლის title ველის მნიშვნელობა ემთხვევა ფუნქციის მეორე 
 პარამეტრს და დავაბრუნოთ ნაპოვნი ობიექტი, 
 */
+
+// ???????
 
 /*
 p.s. 'დააბრუნებს' გულისხმობს რომ ფუნქციაში უნდა გამოიყენოთ return
